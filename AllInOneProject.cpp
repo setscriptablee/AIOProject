@@ -1,10 +1,11 @@
-
 #include <iostream>
+#include "battery.h"
 
 int main()
 {
 	bool running = true;
 	while (running) {
+		batterywatcher();
 		system("title aio toolkit - made by brutalizedshrimpo");
 		int choice = -1;
 		std::cout << "1. internal wipeout\n";

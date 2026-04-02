@@ -28,11 +28,3 @@ void batterywatcher() {
 		cout << "your battery died." << endl;
 	}
 }
-
-int main() {
-	while (true) {
-		batterywatcher();
-		Sleep(60000);
-	}
-	return 0;
-}
