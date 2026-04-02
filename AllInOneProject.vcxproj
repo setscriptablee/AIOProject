@@ -124,10 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AllInOneProject.cpp" />
-    <ClCompile Include="v1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="battery.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
